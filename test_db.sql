@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2024 at 01:09 PM
+-- Generation Time: Dec 10, 2024 at 09:14 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -37,11 +37,11 @@ CREATE TABLE `images` (
 --
 
 INSERT INTO `images` (`id`, `image_url`) VALUES
-(10, 'IMG-6755e6d710bc68.58890296.jpg'),
-(11, 'IMG-6755e747d730f7.24737218.jpg'),
-(12, 'IMG-6755e754b2d428.82825152.jpg'),
-(13, 'IMG-6755e7756adcb7.09615741.jpg'),
-(14, 'IMG-6756c8b56069f4.20669489.jpg');
+(1, 'IMG-6757ea20554c30.22285425.jpg'),
+(2, 'IMG-6757ea2e4f1fd1.39584556.jpg'),
+(3, 'IMG-6757ea37cf79e8.76287508.jpg'),
+(4, 'IMG-6757ea40634b16.68278442.jpg'),
+(5, 'IMG-6757ea727570a8.72723251.jpg');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +61,7 @@ ALTER TABLE `images`
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
